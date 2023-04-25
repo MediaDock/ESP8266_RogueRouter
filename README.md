@@ -1,3 +1,7 @@
+# Based On 
+## The following Build: 
+https://github.com/sparkfun/Rogue_Router
+
 # Rogue_Router
 
 Solar Access Point Fileserver for SparkFun Thing
