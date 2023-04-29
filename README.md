@@ -2,6 +2,15 @@
 ## The following Build: 
 https://github.com/sparkfun/Rogue_Router
 
+# install the esp8266 into your Arduino IDE
+esp8266 core Version 2.7.3 worked for me. 
+But it was very tedious to get this running... 
+The software is working with some older dependencies wich arent working with the latest updates. 
+In my case that meant to downgrade some of the dependencies. 
+
+Put this into your Additional Boards Manager URL in case you need to install the esp 8266 core into your Arduino IDE. 
+http://arduino.esp8266.com/stable/package_esp8266com_index.json
+
 # Rogue_Router
 
 Solar Access Point Fileserver for SparkFun Thing
@@ -29,26 +38,4 @@ https://github.com/knovoselic/Arduino/tree/dns_server_improvements/hardware/esp8
 with patch by "blackie" from:
 http://www.esp8266.com/viewtopic.php?f=32&t=3618&start=36#p21726
 
-No SSL Support yet :( So https:// adresses are not redirect. Traffic is rejected. 
 
-## Enclosure Versions
-
-### Rogue1 
-
-...is the version shown in the video.
-
-![Rogue1](https://raw.githubusercontent.com/sparkfun/Rogue_Router/master/Img/Rogue1.jpg)
-
-### Rogue1.2 
-
-...has an updated enclosure with snap-in standoffs and SD instead of uSD. 
-
-![Rogue1.2](https://raw.githubusercontent.com/sparkfun/Rogue_Router/master/Img/Rogue1.2_closeup.jpg)
-
-![Rogue1.2b](https://raw.githubusercontent.com/sparkfun/Rogue_Router/master/Img/Rogue1.2.jpg)
-
-### Rogue Mini
-
-...is very very small and does not incorporate solar charging
-
-![RogueMini](https://raw.githubusercontent.com/sparkfun/Rogue_Router/master/Img/RogueMini.jpg)
