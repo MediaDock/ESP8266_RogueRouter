@@ -30,7 +30,11 @@ document.getElementById("randomnumber").innerHTML = Math.random();
 </script>
 
  <!-- 
-This is a base64 Image converted on https://www.base64-image.de/ 
+This is a base64 Image converted on 
+https://base64.guru/converter/encode/image
+Alternative:
+https://www.base64-image.de/ 
+
 Since itseems to be a problem to run SPIFFS and the SD Library simultainiously, we are integrating the Pictures via Base 64 directly into the HTML. 
 Since our ESP Board isn`t the fastest Server and the conversion into Base64 makes the File even bigger than the original Format its recomended to go with rather small pictures. 
 Even it`s not very efficient it`s still a way to implement Pictures into your Presentation. That way its possible to load it from your SD Card and to change Contet of your router quickly by swapping the SD Card. 
@@ -39,7 +43,7 @@ PNG
 JPG
 GIF
 
-Since our esp8266 isn`t the fastest computer in the world try to keep the Filesize of your html file under 500kb!
+Try to keep the Filesize of your html file under 500kb!
  -->
 
 
